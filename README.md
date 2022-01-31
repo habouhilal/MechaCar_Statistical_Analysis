@@ -3,7 +3,7 @@
 ## Overview
 The purpose of this project is to design a study that will compare the MechaCar to the Competition. AutosRUs newest prototype of the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. So, this analysis will review the production data for insights that may help the manufacturing team. This process is conducted using R and its strong statistical functions. 
 
-## Results[^note]
+## Results
 ### Linear Regression to Predict MPG 
 
 the first test is to perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
@@ -59,7 +59,7 @@ The t-test on Lot 3 has a p-value of 0.04168, we reject the null hypothesis.
 
 <img width="812" alt="T-test L3" src="https://user-images.githubusercontent.com/91625564/151737644-f92df1f8-3d2e-4cea-8317-e357b0314595.png">
 
-## Study Design: MechaCar vs Competition[^note]
+## Study Design: MechaCar vs Competition
 
 ### 1. What metric or metrics are you going to test?
 
