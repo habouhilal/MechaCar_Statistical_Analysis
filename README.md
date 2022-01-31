@@ -1,9 +1,9 @@
 # MechaCar_Statistical_Analysis
 
-## Overview 
+## Overview[^note]
 The purpose of this project is to design a study that will compare the MechaCar to the Competition. AutosRUs newest prototype of the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. So, this analysis will review the production data for insights that may help the manufacturing team. This process is conducted using R and its strong statistical functions. 
 
-## Results 
+## Results[^note]
 ### Linear Regression to Predict MPG 
 
 the first test is to perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
@@ -11,14 +11,15 @@ the first test is to perform multiple linear regression analysis to identify whi
 <img width="812" alt="Ln summary" src="https://user-images.githubusercontent.com/91625564/151737787-5f54fb61-8292-47a8-860d-72b634048245.png">
 
 
-#### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+#### 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 The linear regression model for our dataset shows that the Vehicle length and Ground Clearance were the only variables with a p-value of less than 0.05. AS results they provide non-random amount of variance to the MPG as these were the only variables with a p-value of less than 0.05.
-#### Is the slope of the linear model considered to be zero? Why or why not?
+
+#### 2.Is the slope of the linear model considered to be zero? Why or why not?
 
 The slope of the linear model is not zero. The test demonstrate that the the p-value is less than 0.05 the model is 5.35e-11. This indicate that a correlation does exist between the variables (mainly Vehicle Length and Ground Clearance) and MPG. As results we can reject the null hypothesis.
 
-#### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+#### 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The r-squared value for this linear model is 0.715. Witch predicts approximately 71% of mpg. This linear model does a predict the mpg of MechaCar prototypes effectively
 
 ### Summary Statistics on Suspension Coils
@@ -43,22 +44,22 @@ The T test results reveals that the p value for all the lots is 0.06028. There i
 <img width="812" alt="T-test Data" src="https://user-images.githubusercontent.com/91625564/151737586-deadcb19-dbee-42a2-8466-188b03781dcf.png">
 
 
-#### T-test on Lot 1 
+#### 1. T-test on Lot 1 
 The t-test on Lot 1 has a p-value of 1, fail to reject the null hypothesis. The test shows that 95% of the coils will have a PSI of 1500 +/- 0.281.
 
 <img width="812" alt="T-test L1" src="https://user-images.githubusercontent.com/91625564/151737596-9a99a29f-deed-4bd6-b0e4-e35481c49bc2.png">
 
-#### T-test on Lot 2
+#### 2. T-test on Lot 2
 The t-test on Lot 2 has a p-value of 0.6072, same as the first lot fail to reject the null hypothesis. The test shows that 95% of the coils will have a PSI of 1500 +/- 0.977.
 
 <img width="812" alt="T-test L2" src="https://user-images.githubusercontent.com/91625564/151737609-23455489-ba6e-4f75-9daa-f2769608958e.png">
 
-#### T-test on Lot 3
+#### 3. T-test on Lot 3
 The t-test on Lot 3 has a p-value of 0.04168, we reject the null hypothesis.
 
 <img width="812" alt="T-test L3" src="https://user-images.githubusercontent.com/91625564/151737644-f92df1f8-3d2e-4cea-8317-e357b0314595.png">
 
-## Study Design: MechaCar vs Competition
+## Study Design: MechaCar vs Competition[^note]
 
 ### 1. What metric or metrics are you going to test?
 
