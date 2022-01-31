@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-## Overview[^]
+## Overview^
 The purpose of this project is to design a study that will compare the MechaCar to the Competition. AutosRUs newest prototype of the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. So, this analysis will review the production data for insights that may help the manufacturing team. This process is conducted using R and its strong statistical functions. 
 
 ## Results[^note]
